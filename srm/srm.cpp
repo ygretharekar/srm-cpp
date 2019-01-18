@@ -3,10 +3,13 @@
 
 #include "pch.h"
 #include <iostream>
+#include "AliceGame.h"
 
 int main()
 {
     std::cout << "Hello World!\n"; 
+	AliceGame a = AliceGame();
+	std::cout << a.findMinimunValue(1, 2);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
